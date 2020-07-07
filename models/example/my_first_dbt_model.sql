@@ -6,4 +6,4 @@
 -- Try changing 'view' to 'table', then re-running dbt
 {{ config(materialized='view') }}
 
-selecta * from demo.companies
+select *, from demo.companies
