@@ -4,6 +4,6 @@
 -- the SQL file? This will override configurations stated in dbt_project.yml
 
 -- Try changing 'view' to 'table', then re-running dbt
-{{ config(materialized='view') }}
+{{ config(materialized='view') }
 
 select *, from demo.companies
